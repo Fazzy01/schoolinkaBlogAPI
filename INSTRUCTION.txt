@@ -1,0 +1,54 @@
+DEAR SCHOOLINKA
+INSTRUCTIONS ON USING THE API BLOG
+
+STEP 1 
+LINK YOUR DATABASE IN THE .env File i.e EDIT (DATABASE_URL=) TO YOUR DATABASE URL.
+
+STEP 2 
+MIGRATE THE DATABASE USING COMMAND (npx prisma migrate dev).
+
+STEP 3 
+SEED THE DATABASE i.e AUTOPOPULATE THE DATABASE USING COMMAND (npm run seed) NB ONLY 1-4 DATA POPULATED IN EACH TABLE.
+
+STEP 4
+START THE SERVER USING COMMAND (npm run dev).
+
+STEP 5
+GET ALL BLOG POSTS USING ( http://localhost:3003/api/post ) LINK NB: USE GET METHOD.
+
+STEP 6
+GET A BLOG POSTS USING ( http://localhost:3003/api/post/id) LINK NB: USE GET METHOD, WHERE id can be 1,2,3 or 4.
+
+STEP 7
+ADD A BLOG POSTS USING ( http://localhost:3003/api/post ) LINK NB: USE POST METHOD and keys are title(string),published(bolean),creatorId(int).  
+e.g  
+        "title": "my second user first title",
+        "published": true,
+        "creatorId": 2
+
+STEP 8
+EDIT A BLOG POST USING ( http://localhost:3003/api/post/id ) LINK NB: USE PATCH METHOD and keys are title(string),published(bolean), WHERE id can be 1,2,3 or 4..
+e.g     
+        "title": "my first updated title",
+        "published": false
+
+STEP 9
+DELETE A BLOG POST USING ( http://localhost:3003/api/post/id ) LINK NB: USE DELETE METHOD, WHERE id can be 1,2,3 or 4.
+
+STEP 10
+SEARCH A BLOG POST USING ( http://localhost:3003/search?filter=value ) LINK NB: THE key is filter
+e.g 
+        search for http://localhost:3003/api/post/search?filter=title 
+
+STEP 11
+ADMIN SHOULD BE ABLE TO GET A SPECIFIC USER'S POSTS USING (http://localhost:3003/user/id/posts ) LINK NB: USE GET METHOD, WHERE id can be 1,2,3 or 4.
+e.g 
+        http://localhost:3003/admin/user/1/posts 
+
+STEP 12
+HOPING TO HEAR PLEASANT FEEDBACK FROM YOU, MY NAME IS JAMIU FAWAZ ISHOLA, A  TECHNICALLY MINDED PERSONNEL WITH 
+YEARS OF EXPERIENCE AS BACKEND ENGINEER, I AM SKILLED IN USING NODEJS/EXPRESS, PHP/LARAVEL, JQUERY, AJAX, TYPESCRIPT
+FLUTTER AND SOME FROM END FRAMEWORKS.
+I WOULD BE GLAD IF GIVEN A CHANCE TO COME EXPLAIN MY CODES SHOW MY SKILLS AND IT WILL BE MY PLEASURE WORKING WITH YOU AT SCHOOLINKA.
+THANK YOU.
+
